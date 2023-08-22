@@ -5,8 +5,8 @@ document.getElementById('search-form').addEventListener('submit', async function
     const destination = document.getElementById('destination').value;
     const date = document.getElementById('date').value;
 
-    const apiKey = 'YOUR_API_KEY';  // Replace with your actual API key
-    const apiUrl = `http://indianrailapi.com/api/v2/AutoCompleteStation/apikey/${apiKey}/StationCodeOrName/${departure}/`;
+    const apiKey = 'c55cc4704emshce0fa51c74cbd1dp16861fjsn721081910542';  
+    const apiUrl = `http://indianrailapi.com/api/v2/AutoCompleteStation/apikey/${c55cc4704emshce0fa51c74cbd1dp16861fjsn721081910542}/StationCodeOrName/${departure}/`;
 
     try {
         const response = await fetch(apiUrl);
